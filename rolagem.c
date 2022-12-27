@@ -129,7 +129,7 @@ void printa_resultados(Sequencia_Lances *lances) {
         printf(" (%s)\n", lances->lances[i].lance);
         total += soma;
     }
-    printf("[%d] <- (total)\n", total);
+    printf("[%d] <- (total)\n\n", total);
 }
 
 void help() {
@@ -148,8 +148,8 @@ void info() {
     puts("Rolagem de Dados - RPG Tools");
     printf("V:%s\n", VERSAO);
     puts("Autor: El0y-c0smo");
-    puts("Github:");
-    puts("Este é um programa feito inicialmente para estudo da linguagem C mas que também tem o intuito de ajudar jogadores de rpg's de todos os tipo. O programa realiza rolagem de dados dos tipos d2, d3, d4, d6, d8, d10, d12, d20, d100 e d1000; podendo ser solicitado a rolagem de mais de um tipo no mesmo comando e com uma quantidade segura de até 100 dados de cada tipo. Para mais informação de como dar os comandos digite: -help");
+    puts("Github: https://github.com/El0y-C0SM0/RPG-Tools.git");
+    puts("Este é um programa feito inicialmente para estudo da linguagem C mas que também tem o intuito de ajudar jogadores de rpg's de todos os tipo. O programa realiza rolagem de dados dos tipos d2, d3, d4, d6, d8, d10, d12, d20, d100 e d1000; podendo ser solicitado a rolagem de mais de um tipo no mesmo comando e com uma quantidade segura de até 100 dados de cada tipo. Para mais informação de como dar os comandos digite: -help\n");
 }
 
 int main() {
@@ -157,7 +157,7 @@ int main() {
 
     setlocale(LC_ALL, "Portuguese_Brazil");
 
-    while (scanf("%s", prompt) != EOF) {
+    while (scanf(" %s", prompt) != EOF) {
         if(strcmp(prompt, "-roll") == 0) {
             Sequencia_Lances *lance = (Sequencia_Lances*) malloc(1 * sizeof(Sequencia_Lances));
             char dados[TAM_DADO];
@@ -167,9 +167,8 @@ int main() {
             faz_lance(dados, lance);
 
             printa_resultados(lance);
-
         } else if(strcmp(prompt, "-v") == 0 || strcmp(prompt, "-version") == 0) {
-            printf("Versão: %s\n", VERSAO);
+            printf("Versão: %s\n\n", VERSAO);
         } else if(strcmp(prompt, "-h") == 0 || strcmp(prompt, "-help") == 0) {
             help();
         } else if(strcmp(prompt, "-i") == 0 || strcmp(prompt, "-info") == 0) {
@@ -180,7 +179,6 @@ int main() {
             puts("esse comando não e reconhecido!");
         }
     }
-    
     
     return 0;
 }
