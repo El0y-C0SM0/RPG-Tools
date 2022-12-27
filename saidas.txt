@@ -1,0 +1,31 @@
+Rolagem de Dados - RPG Tools\nV:%s\nAutor: El0y-c0smo\nGithub: ~~~~~~~\n=============================\nEste é um programa feito inicialmente para estudo da linguagem C mas que também tem o intuito de ajudar jogadores de rpg's de todos os tipo. O programa realiza rolagem de dados dos tipos d2, d3, d4, d6, d8, d10, d12, d20, d100 e d1000; podendo ser solicitado a rolagem de mais de um tipo no mesmo comando e com uma quantidade segura de até 100 dados de cada tipo. Para mais informação de como dar os comandos digite: -help\n
+
+Comandos:
+-info ou -i: exibe informações gerais acerca do programa
+-h ou -help: exibe comandos e informações de ajuda ao usuário
+-v ou -version: exibe versão do programa
+-roll: faz a rolagem dos dados solicitados
+exit: encerra o programa
+
+Como solicitar rolagens:
+indique a quantidade de dados(opicional) com um numero antes do "d"; indique o dado com o nome dele (obrigatório) e indique o modificador com o sinal de soma ou subtração (+ ou -) e o valor dele (opicional). Caso vá pedir mais de um tipo de dado no mesmo comando, separe eles com um espaço.
+Exemplos de entradas:
+ d6
+ 2d4
+ 2d4+2
+ d20 2d10
+
+Como será a saida:
+A saida irá apresentar o valor da soma dos dados rolados e do possivel modificador entre colchetes [], logo depois mostrará o valor da rolagem de cada dado e o tipo do dado entre parenteses (). No final mostrará o total dos dados de todos os tipos e seus modificadores.
+
+Quais são os tipos de dados:
+d2 - valores entre 1 e 2
+d3 - valores entre 1 e 3
+d4 - valores entre 1 e 4
+d6 - valores entre 1 e 6
+d8 - valores entre 1 e 8
+d10 - valores entre 1 e 10
+d12 - valores entre 1 e 12
+d20 - valores entre 1 e 20
+d100 - valores entre 1 e 100
+d1000 - valores entre 1 e 1000
