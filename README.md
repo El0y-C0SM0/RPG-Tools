@@ -119,7 +119,6 @@ As operações validas são:
 
 Caso ache algum bug ou faça uma melhoria no código, me envie uma solicitação de push que eu avalio as modificações.
 
-##<font color="red"> Alerta
+<h2 style="color:red">Alerta</h2>
 
-Alterar os arquivos incorretamente pode acarretar no mal funcionament da aplicação. Não altere o local deles na pasta de programas sem alterar também o código, exceto que saiba o que está fazendo e seja intensional.
-</font>
+<p style="color:red">Alterar os arquivos incorretamente pode acarretar no mal funcionament da aplicação. Não altere o local deles na pasta de programas sem alterar também o código, exceto que saiba o que está fazendo e seja intensional.</p>
