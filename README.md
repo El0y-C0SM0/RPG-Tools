@@ -16,15 +16,15 @@ Para baixar o programa basta clicar nesse [link](https://github.com/El0y-C0SM0/R
 
 O código está divido em quatro executaveis e abaixo vou descrever como fazer uso e para que server cada um, caso queira ir direto para o uso clique nos links:
 
-- [como usar o rpg_tools]()
-- [como usar o sistema de rolagem]()
-- [como usar o registro de armas]()
-- [como usar a calculadora]()
+- [como usar o rpg_tools](#rpg-tools-comandos)
+- [como usar o sistema de rolagem](#rolagem-comandos)
+- [como usar o registro de armas](#registro-comandos)
+- [como usar a calculadora](#calculadora-comandos)
 
 ## Programas
 ### Rpg_tools
 
-Este é o software responsável por gerenciar e abrir os demais. Seus comandos são:
+<p id="rpg-tools-comandos">Este é o software responsável por gerenciar e abrir os demais. Seus comandos são:</p> 
 
 - `-help` ou `-h`: exibe comandos e informações de ajuda ao usuário
 - `-info` ou `-i`: exibe informações sobre o programa
@@ -50,7 +50,7 @@ Com ele é possivel rolar os segintes tipos de dados:
 - d100
 - d1000
 
-Os comandos são:
+<p id="rolagem-comandos">Os comandos são:</p>
 
 - `-help` ou `-h`: exibe comandos e informações de ajuda ao usuário
 - `-info` ou `-i`: exibe informações sobre o programa
@@ -73,4 +73,53 @@ A saida indicará a soma total dos dados de determinado tipo, o valor individual
 
 Para rolar o dano de uma arma, o dano precisa estar registrado no formato de rolagem de dados (sem o -roll, apenas os dados). 
 
+### Registro de armas
 
+Com este programa é possivel salvar algumas informações das armas que o usuário desejar. Essas informações são o nome, o dano e alguma descrição curta sobre a arma. Esse registro ajuda para que o jogador consiga achar a arma usada pelo seu personagem e até rolar o dano dela diretamente no programa de rolagem de dados.
+
+O nome da arma pode conter no máximo **30** caracteres, assim como o dano e a descrição contém até **100**. Caso o usuário tenha a intenção de faz rolagens automáticas ele deve digitar o dano no mesmo formato que se digita os dados, exemplo: `2d10+3`.
+
+<p id="registro-comandos">Os comandos são:</p>
+
+- `-help` ou `-h`: exibe comandos e informações de ajuda ao usuário
+- `-info` ou `-i`: exibe informações sobre o programa
+- `-version` ou `-v`: exibe versão do programa
+- `-registra` ou `-r`: para registrar novas armas
+- `-buscar` ou `-b`: para achar uma arma já salva
+- `-open` ou `-o`: abre o arquivo onde estão salvas as armas para leitura
+- `-delete`: deleta o que já foi salvo
+- `-exit`: encerra o programa
+
+### Calculadora
+
+Está é uma simples calculadora que realiza as operações de acordo com a ordem que estão sendo inseridas. Por sua simplicidade tem a intenção de oferecer uma ajuda realmente voltada a jogadores de rpg.
+
+<p id="calculadora-comandos">Comandos:</p>
+
+- `-help` ou `-h`: exibe comandos e informações de ajuda ao usuário
+- `-info` ou `-i`: exibe informações sobre o programa
+- `-version` ou `-v`: exibe versão do programa
+- `-calc` ou `-c`: para inserir os calculos
+- `-exit`: encerra o programa
+
+Como inserir os calculos:
+
+Após dar o comando `-exit`, digite o numero que deseja calcular e dê enter, após isso poderá fazer outro calculo com o resultado ou digitar "=" e encerrar a operação.
+
+As operações validas são:
+
+- soma +
+- subtração -
+- multiplicação *
+- divisão /
+- exponenciação ^
+- porcentagem %
+
+## Quero ajudar
+
+Caso ache algum bug ou faça uma melhoria no código, me envie uma solicitação de push que eu avalio as modificações.
+
+##<font color="red"> Alerta
+
+Alterar os arquivos incorretamente pode acarretar no mal funcionament da aplicação. Não altere o local deles na pasta de programas sem alterar também o código, exceto que saiba o que está fazendo e seja intensional.
+</font>
