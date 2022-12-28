@@ -1,0 +1,5 @@
+Nome: espada de treinamento
+Chave: 23431
+Dano: d1000
+Descrição: s¢ para testar o sistema de salvamento
+==================================================
