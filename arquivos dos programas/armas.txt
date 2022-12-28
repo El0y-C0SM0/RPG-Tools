@@ -1,5 +1,5 @@
-Nome: espada
-Chave: 1515
-Dano: 2d6
-Descrição: s¢ teste
+Nome: espada de treinamento
+Chave: 23431
+Dano: d1000
+Descrição: s¢ para testar o sistema de salvamento
 ==================================================
