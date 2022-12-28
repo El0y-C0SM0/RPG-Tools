@@ -31,3 +31,5 @@ d100 - valores entre 1 e 100
 d1000 - valores entre 1 e 1000
 
 Uma calculadora simples que realiza os calculos na ordem que são inseridos. Tem o objetivo de ajudar jogadores de rpg a fazer calculos simples com agilidade.
+
+Um programa em que o usuário salva algumas armas usadas por ele em jogos de rpg.
