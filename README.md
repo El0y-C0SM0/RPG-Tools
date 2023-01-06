@@ -84,7 +84,7 @@ O nome da arma pode conter no máximo **30** caracteres, assim como o dano e a d
 - `-help` ou `-h`: exibe comandos e informações de ajuda ao usuário
 - `-info` ou `-i`: exibe informações sobre o programa
 - `-version` ou `-v`: exibe versão do programa
-- `-registra` ou `-r`: para registrar novas armas
+- `-registrar` ou `-r`: para registrar novas armas
 - `-buscar` ou `-b`: para achar uma arma já salva
 - `-open` ou `-o`: abre o arquivo onde estão salvas as armas para leitura
 - `-delete`: deleta o que já foi salvo
