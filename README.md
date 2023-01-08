@@ -1,4 +1,4 @@
-# RPG-Tools ![versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-blue?style=flat-square) ![status](https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen?style=flat-square)
+# RPG-Tools ![versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-blue?style=flat-square) ![status](https://img.shields.io/badge/status-concluido-brightgreen?style=flat-square)
 
 ## O que é?
 
